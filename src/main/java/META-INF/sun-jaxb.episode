@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.2.11 
+Vedere <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2019.12.22 alle 03:00:08 PM CET 
+
+  -->
+  <bindings xmlns:tns="http://ws1.unict.it/stdata/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="it.unict.soap.studium"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:TB_GetYears">
+      <class ref="it.unict.soap.studium.TBGetYears"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_GetYearsResponse">
+      <class ref="it.unict.soap.studium.TBGetYearsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_GetDepartments">
+      <class ref="it.unict.soap.studium.TBGetDepartments"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_GetDepartmentsResponse">
+      <class ref="it.unict.soap.studium.TBGetDepartmentsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_GetDepartmentContent">
+      <class ref="it.unict.soap.studium.TBGetDepartmentContent"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_GetDepartmentContentResponse">
+      <class ref="it.unict.soap.studium.TBGetDepartmentContentResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_GetCourses">
+      <class ref="it.unict.soap.studium.TBGetCourses"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_GetCoursesResponse">
+      <class ref="it.unict.soap.studium.TBGetCoursesResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_CheckSubscription">
+      <class ref="it.unict.soap.studium.TBCheckSubscription"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:TB_CheckSubscriptionResponse">
+      <class ref="it.unict.soap.studium.TBCheckSubscriptionResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
